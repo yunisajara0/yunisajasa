@@ -1,0 +1,11 @@
+version: 2.1
+
+jobs:
+  build:
+    parallelism: 1
+    machine: true
+    steps:
+      - checkout
+      - run : |
+             echo 'Machine!'
+             
